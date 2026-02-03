@@ -11,10 +11,10 @@ int main(){
     }
     cout<<rev<<endl;
     //for loop
-    for(int i=n;i!=0;i=i/10){
-        int k=i%10;
-        rev=rev*10+k;
-    }
-    cout<<rev<<endl;
+    //for(int i=n;i!=0;i=i/10){
+      //  int k=i%10;
+      //  rev=rev*10+k;
+   // }
+  //  cout<<rev<<endl;
     return 0;
 }
