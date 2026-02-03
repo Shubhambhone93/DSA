@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     bool ans=true;
     //hum pehle se assume kr rhe hai ki num prime hoga
-    for(int i=2;i<=sqrt(n);i++){
+    for(int i=2;i<=sqrt(n);i++){ //more optimaizaton
         if(n% i==0){
             ans=false;
         }
