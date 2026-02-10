@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 int main(){
     //intialization
@@ -18,9 +19,19 @@ int main(){
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
     }
-    //frist element
+    //frist element find
     cout<<a.front()<<endl;
-    //last element
+    //last element find
     cout<<a.back()<<endl;
+    //add element from starting and ending starting se + ending se -
+    a.insert(a.begin()+2,6);
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    //for reverse array
+    reverse(a.begin(),a.end());
+
+    // for sort 
+    sort(a.begin(),a.end());
     return 0;
 }
