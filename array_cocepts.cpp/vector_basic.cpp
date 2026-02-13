@@ -30,8 +30,14 @@ int main(){
     }
     //for reverse array
     reverse(a.begin(),a.end());
-
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
     // for sort 
     sort(a.begin(),a.end());
-    return 0;
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+   cout<<endl;
+   return 0;
 }
