@@ -14,7 +14,7 @@ int main(){
             if(arr[j]<arr[min]){
                 min=j;
             }
-            swap(arr[i],arr[min]);
+            swap(arr[i],arr[min]); 
         }
     }
     cout<<"sorted array through selection sort"<<endl;
